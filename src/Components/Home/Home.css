@@ -1,0 +1,179 @@
+.Home-div{
+    background-color: rgb(242, 250, 250);
+    width: 100vw;
+    height: 100vh;
+}
+
+.Tilesdiv{
+    width: 80%;
+    margin: auto;
+    height: max-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center !important;
+    align-content: center !important;
+}
+.spec-Tile{
+    flex: 32%;
+    /* border: #5EBCB6 3px solid; */
+    margin: auto;
+    margin-bottom: 2rem;
+}
+.Tile-container{
+    margin: auto;
+width: 32vw;
+height: max-content;
+/* border: 1px solid rebeccapurple; */
+background-color: white;
+}
+.Tile-div-1{
+ width: 100%;
+height: 200px;
+}
+.bckg-image{
+width: 100%;
+height: 200px;
+position: relative;
+}
+.image_one{
+width: 100%;
+height: 200px;
+}
+.closing{
+    position: absolute;
+    top: 10%;
+    right: 0;
+    width: 20%;
+    height: 20px;
+    color: white;
+    text-align: center;
+    border-radius: 10px 0px 0px 10px;
+    background-color: red;
+}
+.profile-div{
+width: 75px;
+height: 75px;
+border-radius: 100%;
+position: absolute;
+bottom: -20%;
+left: 5%;
+}
+.profile-image{
+border-radius: 100%;
+width: 100%;
+height: 100%;
+}
+
+.Tile-div-2{
+position: relative !important;
+width: 95% !important;
+height: max-content;
+padding-bottom: 2rem;
+margin: auto;
+/* border: 1px solid rebeccapurple; */
+}
+.follow-button{
+    border: 2px solid #5EBCB6 !important;
+    width: 68px;
+    height: 25px;
+    color: #5EBCB6;
+    position: absolute;
+    right: 5%;
+    top: 3%;
+    border-radius: 12px ;
+    padding: 2px;
+}
+.investors{
+    position: absolute !important;
+    bottom: 5%;
+    right: 5%;
+}
+.first{
+    text-align: left;
+    padding-top: 50px; 
+}
+.first-p{
+    width: 80%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-wrap: wrap;
+}
+.second{
+    width: 100% !important;
+    height: 100px;
+}
+.third{
+    width: 100%;
+    height: fit-content;
+    margin-top: 1rem;
+}
+.third-buttons-first{
+    width: fit-content;
+    background-color: #8C8C8C;
+    border-radius: 5px;
+    
+}
+.third-buttons-second{
+    width: fit-content;
+    background-color: #6378AA;
+    border-radius: 5px;
+}
+.okay-bold{
+    color: #5EBCB6;
+}
+.progress-bar-div{
+    width: 100%;
+    height: 30px;
+}
+.second-second{
+    width: 95%;
+}
+
+@media only screen and (max-width:1320px){
+ 
+.spec-Tile{
+    flex: 50% ;
+}
+.second{
+    width: 100% !important;
+    height: 140px;
+}
+.Tile-container{
+    height: max-content;
+    /* border: 1px solid rebeccapurple; */
+    background-color: white;
+    }
+}
+@media only screen and (max-width:920px){
+    .Tilesdiv{
+        width: 90%;
+    }
+.Tile-container{
+    width: 50vw;
+    margin: auto;
+
+}
+}
+@media only screen and (max-width:768px){
+    .Tile-container{
+        width: 70vw;
+        margin: auto;
+    }
+    .second{
+        height: 130px;
+    }
+    }
+@media only screen and (max-width:568px){
+        .Tile-container{
+            width: 80vw;
+            height: max-content;
+            margin:auto;
+        }
+}
+@media only screen and (max-width:568px){
+    .Tile-container{
+        width: 90vw;
+        /* height: 700px; */
+        margin: auto;
+    }
+}
