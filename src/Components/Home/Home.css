@@ -12,6 +12,7 @@
     flex-wrap: wrap;
     justify-content: center !important;
     align-content: center !important;
+    padding-top: 3rem;
 }
 .spec-Tile{
     flex: 32%;
