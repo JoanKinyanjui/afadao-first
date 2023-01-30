@@ -148,6 +148,7 @@ margin: auto;
 @media only screen and (max-width:920px){
     .Tilesdiv{
         width: 90%;
+        margin-top: 5rem;
     }
 .Tile-container{
     width: 50vw;
