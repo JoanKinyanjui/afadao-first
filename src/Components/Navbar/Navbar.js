@@ -15,7 +15,6 @@ function NavbarComponent() {
           <Navbar.Brand href="#home" className='flex more_colors'><p className='text-2xl  md:text-4xl mx-2'><FaSquarespace /></p> <p className=' text-xl md:text-3xl font-black'>CrowdFunding</p></Navbar.Brand>
           <Nav className="justify-content-end text-black text-lg flex items-center" >
             <Nav.Link href="#home">Invest</Nav.Link>
-            <Nav.Link href="#features">Learn</Nav.Link>
             <Nav.Link href="#pricing"> <button style={{backgroundColor:"#5EBCB6"}} className='  px-2 md:px-4 py-1 rounded'>Sign Up</button></Nav.Link>
           </Nav>
         </Container>
