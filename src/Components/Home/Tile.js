@@ -1,6 +1,7 @@
 import React from 'react';
 import './Home.css';
 import { CiClock2 } from "react-icons/ci";
+// eslint-disable-next-line
 import { FaUserPlus, IconName } from "react-icons/fa";
 import ProgressBar from 'react-bootstrap/ProgressBar';
 
@@ -11,9 +12,9 @@ function Tile({data}) {
       {/* Div part one  */}
         <div className='Tile-div-1'>
           <div className='bckg-image'> 
-          <img className='image_one' src={data.background_image} />
+          <img className='image_one' src={data.background_image} alt='gr' />
           <div className='closing text-sm flex place-content-center'> <CiClock2  className='flex self-center text-md'/><p className='ml-2'> Closing</p></div>
-          <div className='profile-div'><img className='profile-image' src={data.profile_Image} /></div>
+          <div className='profile-div'><img className='profile-image' src={data.profile_Image} alt='gr' /></div>
           </div>
         </div>
                {/* Div part 2    */}

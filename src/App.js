@@ -1,3 +1,4 @@
+// eslint-disable-next-line
 import logo from './logo.svg';
 import './App.css';
 import Home from './Components/Home/Home';
