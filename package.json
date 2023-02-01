@@ -13,13 +13,7 @@
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.3.0",
     "bootstrap": "^5.2.3",
-<<<<<<< HEAD
-    "express": "^4.18.2",
-    "mongoose": "^6.9.0",
-    "nodemon": "^2.0.20",
-=======
     "ethers": "^5.7.2",
->>>>>>> 77776a5bf55132593ee7ccd9ad0f5b08712b4fa4
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.0",
     "react-dom": "^18.2.0",
