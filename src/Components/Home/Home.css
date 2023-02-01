@@ -22,7 +22,7 @@
 }
 .Tile-container{
     margin: auto;
-width: 32vw;
+width: 30vw;
 height: max-content;
 /* border: 1px solid rebeccapurple; */
 background-color: white;
@@ -100,8 +100,11 @@ margin: auto;
     flex-wrap: wrap;
 }
 .second{
-    width: 100% !important;
+    width: fit-content !important;
     height: 100px;
+}
+.second-first{
+    white-space: nowrap;
 }
 .third{
     width: 100%;
@@ -141,6 +144,7 @@ margin: auto;
 }
 .Tile-container{
     height: max-content;
+    /* width: 28vw; */
     /* border: 1px solid rebeccapurple; */
     background-color: white;
     }

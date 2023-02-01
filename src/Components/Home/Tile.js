@@ -13,7 +13,7 @@ function Tile({data}) {
           <div className='bckg-image'> 
           <img className='image_one' src={data.background_image} />
           <div className='closing text-sm flex place-content-center'> <CiClock2  className='flex self-center text-md'/><p className='ml-2'> Closing</p></div>
-          <div className='profile-div'><img className='profile-image' src={data.profile_Image} /></div>
+          <div className='profile-div'><img className='profile-image' src={data.profile_image} /></div>
           </div>
         </div>
                {/* Div part 2    */}
@@ -22,25 +22,25 @@ function Tile({data}) {
 
      <div className='w-full first'>
       <h3 className='font-black text-3xl'>{data.company_name}</h3>
-      <p className='text-md pt-2 first-p'>Invest in a diversified portfolio with target yield of 8-9%</p>
+      <p className='text-md pt-2 first-p'>{data.tag_line}</p>
      </div>
 
 <div className='w-full second'>
      <div className='second-first flex'>
-<div className='px-4 py-1'>
-<p className='font-bold  text-lg md:text-2xl okay-bold'>{data.min_Invest}</p>
+<div className='px-2 py-1'>
+<p className='font-bold  text-lg md:text-xl okay-bold'>$4000</p>
 <p>Min Invest</p>
 </div>
 <div style={{borderLeft:'1px solid #000',height:'40px'}} className='grid self-center mr-1'></div>
 
-<div className='px-4 py-1'>
-<p className='font-bold text-lg md:text-2xl okay-bold'>{data.target}</p>
+<div className='px-2 py-1'>
+<p className='font-bold text-lg md:text-xl okay-bold'>${data.target}</p>
 <p>Target</p>
 </div>
 <div style={{borderLeft:'1px solid #000',height:'40px'}} className='grid self-center mr-1'></div>
 
-<div className='px-4'>
-<p className='font-bold text-lg md:text-2xl okay-bold py-1'>{data.valuation}</p>
+<div className='px-2'>
+<p className='font-bold text-lg md:text-xl okay-bold py-1'> ${data.valuation}</p>
 <p>Valuation</p>
 </div>
      </div>
@@ -48,7 +48,7 @@ function Tile({data}) {
  <div className='second-second'>
   <ProgressBar now={60} />
   <div className='progress-bar-div flex justify-between text-sm text-slate-600'>
-    <div>{data.raised_amount} Raised</div>
+    <div>${data.raised_amount} Raised</div>
     <div>{data.days_left}days left</div>
   </div>
 </div>
