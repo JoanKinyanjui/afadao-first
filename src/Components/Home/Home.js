@@ -10,7 +10,7 @@ function Home() {
   useEffect(()=>{
 async function getBusinesses(){
   try {
-		const response = await axios.get("http://localhost:3001/");
+		const response = await axios.get("https://afadao-first-backend.vercel.app/");
     setBusiness(response.data.businesses)
     console.log(response.data.businesses)                                
 	}
