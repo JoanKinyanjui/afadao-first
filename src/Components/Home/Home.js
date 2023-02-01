@@ -1,6 +1,7 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
 import NavbarComponent from '../Navbar/Navbar'
+// eslint-disable-next-line
 import Navbar from '../Navbar/Navbar'
 import Tilesdiv from './Tilesdiv'
 

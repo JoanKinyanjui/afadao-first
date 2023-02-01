@@ -1,3 +1,6 @@
+
+
+
  const data =[
     {
         company_name:'CMI MIC Balanced Fund',

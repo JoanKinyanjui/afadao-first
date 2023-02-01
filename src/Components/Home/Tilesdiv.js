@@ -1,11 +1,12 @@
-import React from 'react'
+import React, {useState} from 'react'
 import Tile from './Tile';
+import { providers, Contract } from "ethers";
+
 import './Home.css';
 import data from '../../data'
-// import business from '../../../backend/model/business';
 
-function Tilesdiv({business}) {
-  console.log(business)
+function Tilesdiv() {
+  console.log(data)
   return (
     <div className='Tilesdiv flex py-12'>
       {business.map((data,index)=>(
